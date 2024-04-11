@@ -2,6 +2,20 @@
 
 @section('main-content')
 
+<style>
+
+	.nav-link {
+		font-size: 18px !important;
+		text-shadow: 0px 0px 8px rgba(109,227,29); 
+	}
+
+	.carousel-caption {
+		-webkit-text-stroke: 0.2px black;
+		text-stroke: 0.2px black;
+		text-shadow: 0px 0px 4px rgba(0,0,0); 
+	}
+</style>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="#">
@@ -46,22 +60,22 @@
 			<div class="carousel-item active">
 				<img src="{{ url('/images/home_carousel/1.png'); }}" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>First slide label</h5>
-					<p>Some representative placeholder content for the first slide.</p>
+					<h5>Componentes de calidad</h5>
+					<p>Usamos las marcas más prestigiosas del mercado como Asus y Gigabyte.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="{{ url('/images/home_carousel/2.png'); }}" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Second slide label</h5>
-					<p>Some representative placeholder content for the second slide.</p>
+					<h5>Hecho con cuidado y cariño ❤️</h5>
+					<p>Nuestras builds están garantizadas y mantienen una compatibilidad insuperable.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="{{ url('/images/home_carousel/3.png'); }}" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5 style="color: blue;">Third slide label</h5>
-					<p>Some representative placeholder content for the third slide.</p>
+					<h5>❤️ Cuida tu planeta 🌎</h5>
+					<p>Opta por este sistema basado en la reutilización de componentes.</p>
 				</div>
 			</div>
 		</div>
