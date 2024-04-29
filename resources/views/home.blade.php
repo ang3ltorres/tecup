@@ -32,7 +32,7 @@
 					<a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Planes</a>
+					<a href="{{ route('plans') }}" class="nav-link active" aria-current="page" href="#">Planes</a>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
