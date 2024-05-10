@@ -39,7 +39,7 @@
 						Más información
 					</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">FAQ</a></li>
+						<li><a class="dropdown-item" href="{{ route('faq') }}">FAQ</a></li>
 						<li><a class="dropdown-item" href="#">¿Cómo funciona?</a></li>
 						<li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
 					</ul>
