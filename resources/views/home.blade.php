@@ -29,7 +29,7 @@
 		<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
+					<a href="{{ route('session') }}" class="nav-link active" aria-current="page" href="#">Iniciar sesión</a>
 				</li>
 				<li class="nav-item">
 					<a href="{{ route('plans') }}" class="nav-link active" aria-current="page" href="#">Planes</a>
@@ -89,7 +89,5 @@
 		</button>
 	</div>
 </div>
-
-text
 
 @endsection
