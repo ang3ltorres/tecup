@@ -410,6 +410,13 @@
         },
         "retina_detect": true
     });
+
+    // Script para redirigir al hacer clic en el botón
+    $(document).ready(function(){
+        $('#btn-message').click(function(){
+            window.location.href = "{{ route('perfile') }}";
+        });
+    });
 </script>
 </body>
 </html>

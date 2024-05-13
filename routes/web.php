@@ -14,6 +14,7 @@ Route::get('/session', function(){ return view('session'); })->name('session');
 Route::get('/homeapp', function(){ return view('homeapp'); })->name('homeapp');
 Route::get('/homeapp', [RegisterController::class, 'index'])->name('homeapp');
 
+Route::get('/perfile', function(){ return view('perfile'); })->name('perfile');
 
 Route::post('/session', [RegisterController::class, 'register'])->name('session');
 Route::post('/iniciar_sesion',[RegisterController::class,'login'])->name('iniciar_sesion');
